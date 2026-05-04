@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha | B.Tech (Hons.) Computer Science</title>
+    <meta name="description" content="Portfolio of Megha, a B.Tech Computer Science student specializing in AI/ML, NLP, and Deep Learning.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="theme-dark">
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                Megha<span class="text-accent">.</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="nav-divider"></div>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i data-lucide="sun" class="icon-light"></i>
+                    <i data-lucide="moon" class="icon-dark"></i>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-padding">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="hero-content" id="hero-container">
+                <!-- Dynamically populated by main.js -->
+            </div>
+            
+            <div class="scroll-indicator">
+                <span class="scroll-text">Scroll</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding section-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Introduction</p>
+                    <h2 class="section-title">About Me.</h2>
+                </div>
+                <div class="about-content" id="about-container">
+                    <!-- Dynamically populated by main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding bg-alt section-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Technical Proficiency</p>
+                    <h2 class="section-title">Skills & Tools.</h2>
+                </div>
+                <div class="skills-grid" id="skills-container">
+                    <!-- Dynamically populated by main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-padding section-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Academic Journey</p>
+                    <h2 class="section-title">Education.</h2>
+                </div>
+                <div class="timeline" id="education-container">
+                    <!-- Dynamically populated by main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding bg-alt section-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Featured Work</p>
+                    <h2 class="section-title">Projects.</h2>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <!-- Dynamically populated by main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-padding section-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">Professional Background</p>
+                    <h2 class="section-title">Experience.</h2>
+                </div>
+                <div class="timeline" id="experience-container">
+                    <!-- Dynamically populated by main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding section-reveal">
+            <div class="container">
+                <div class="contact-card glass-card">
+                    <div class="section-header center">
+                        <h2 class="section-title">Let's Connect.</h2>
+                        <p class="contact-subtitle">Currently seeking internship opportunities in AI, NLP, and full-stack development.</p>
+                    </div>
+                    
+                    <div class="contact-content">
+                        <div class="contact-info" id="contact-info-container">
+                            <!-- Populated dynamically -->
+                        </div>
+                        
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="How can we collaborate?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-full">Send Message <i data-lucide="send" class="btn-icon"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Megha. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts (ES Module) -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
