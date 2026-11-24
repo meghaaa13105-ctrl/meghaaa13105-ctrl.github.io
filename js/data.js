@@ -2,17 +2,17 @@
 
 export const heroData = {
     name: "Megha",
-    title: "B.Tech (Hons.) Computer Science and Engineering Student",
+    title: "Product Owner Intern at Progress Software | B.Tech (Hons.) Computer Science",
     tagline: "Driven by a passion for AI/ML, NLP, deep learning, and building robust full-stack applications. Transforming complex problems into intelligent, scalable solutions.",
     stats: [
-        { label: "CGPA", value: "8.26", suffix: "" },
+        { label: "CGPA", value: "8.37", suffix: "" },
         { label: "Class XII", value: "89.5", suffix: "%" },
         { label: "Class X", value: "96.4", suffix: "%" }
     ]
 };
 
 export const aboutData = {
-    description: "I am a motivated Computer Science student with a strong foundation in building practical solutions. My primary interests lie at the intersection of Artificial Intelligence, Machine Learning, Natural Language Processing, and Deep Learning. With a solid understanding of computer networks and modern development workflows, I thrive on tackling technical challenges and transforming ideas into functional, real-world applications. I am continuously exploring new technologies and seeking opportunities to leverage my skills in impactful projects."
+    description: "I am a Computer Science student and currently a Product Owner Intern at Progress Software, with a strong foundation in building practical, user-focused solutions. My primary interests lie at the intersection of Artificial Intelligence, Machine Learning, Natural Language Processing, and Deep Learning. With a solid understanding of computer networks, product workflows, and modern development practices, I thrive on tackling technical challenges and transforming ideas into functional, real-world applications."
 };
 
 export const educationData = [
@@ -20,7 +20,7 @@ export const educationData = [
         institution: "RV University",
         degree: "B.Tech (Hons.), Computer Science and Engineering",
         duration: "2023 - Present",
-        metric: "CGPA 8.26"
+        metric: "CGPA 8.37"
     },
     {
         institution: "St Mary’s PU College, Chikkamagalur",
@@ -85,6 +85,16 @@ export const projectsData = [
 
 export const experienceData = [
     {
+        role: "Product Owner Intern",
+        organization: "Progress Software, Bengaluru",
+        duration: "November 2026 - Present",
+        highlights: [
+            "Working as a Product Owner Intern at Progress Software",
+            "Collaborating with cross-functional engineering and product teams to align requirements and deliverables",
+            "Contributing to backlog management, feature prioritization, and Agile product workflows"
+        ]
+    },
+    {
         role: "Project Intern",
         organization: "Broadrange AI, Illinois",
         duration: "January 2026 - Present",
@@ -123,19 +133,27 @@ export const experienceData = [
 export const skillsData = [
     {
         category: "Languages",
-        items: ["C", "C++", "JavaScript", "Java", "MySQL", "Python"]
+        items: ["C", "JavaScript", "Java", "SQL", "MySQL"]
     },
     {
-        category: "Frameworks",
-        items: ["React.js", "Pandas", "Scikit-Learn", "TensorFlow"]
+        category: "AI, ML & LLMs",
+        items: ["Generative AI", "LLM/RAG", "LLMs", "Natural Language Processing (NLP)", "Machine Learning", "Deep Learning", "Computer Vision", "BERT"]
     },
     {
-        category: "Developer Tools",
-        items: ["Git", "GitHub", "Google Colab", "Visual Studio Code"]
+        category: "Frameworks & Libraries",
+        items: ["PyTorch", "TensorFlow", "LangChain", "Scikit-Learn", "Pandas"]
+    },
+    {
+        category: "Data, Cloud & DevOps",
+        items: ["AWS", "Kubernetes", "Distributed Systems", "Data Engineering", "Data Analysis", "Power BI", "Excel"]
+    },
+    {
+        category: "Product & Developer Tools",
+        items: ["Product Management", "Agile", "Jira", "Git", "GitHub", "Google Colab", "Visual Studio Code"]
     },
     {
         category: "Relevant Courses",
-        items: ["Data Structures", "Algorithms", "Computer Networks", "Artificial Intelligence", "Deep Learning"]
+        items: ["Data Structures", "Algorithms", "Computer Networks", "Artificial Intelligence"]
     }
 ];
 
